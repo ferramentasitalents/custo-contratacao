@@ -2,17 +2,21 @@ body {
   font-family: Arial, sans-serif;
   background-color: #transparent;
 }
+
 #calculator {
   max-width: 400px;
-  height: 460px;
+  height: 350px; 
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
 }
+
 label {
   display: block;
   margin-bottom: 10px;
 }
+
 input[type="number"] {
   width: 100%;
   padding: 10px;
@@ -21,6 +25,7 @@ input[type="number"] {
   font-size: 16px;
   box-sizing: border-box;
 }
+
 button[type="submit"] {
   display: block;
   margin-top: 20px;
@@ -34,9 +39,11 @@ button[type="submit"] {
   cursor: pointer;
   transition: background-color 0.2s;
 }
+
 button[type="submit"]:hover {
   background-color: #0062cc;
 }
+
 #result {
   margin-top: 20px;
   font-size: 24px;
